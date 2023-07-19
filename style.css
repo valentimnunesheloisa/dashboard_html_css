@@ -1,0 +1,16 @@
+/*Exemplo de reset de CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+
+:root{
+    --cor_menu : purple;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--cor_menu);
+}
